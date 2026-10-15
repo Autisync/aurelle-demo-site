@@ -10,7 +10,7 @@
 //   SITE_SLUG     the CRM website whose enquiry form is used, default aurelle-demo
 import { cpSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 
-const DEFAULT_TRACK_KEY = '';
+const DEFAULT_TRACK_KEY = 'as_4acdc8a6fea816ec023d095b';
 
 rmSync('dist', { recursive: true, force: true });
 mkdirSync('dist', { recursive: true });

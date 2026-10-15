@@ -109,3 +109,7 @@
   .bk-bar i, .bk-option { transition: none; }
   .bk-ghost, .bk-skel { animation: none; }
 }
+
+/* "with Dan" only once the diary has answered. */
+[data-next-free]:not([data-state="ready"]) [data-nf-if-staff] { display: none; }
+[hidden] { display: none !important; }
