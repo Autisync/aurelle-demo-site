@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aurelle Skin Clinic | Medical aesthetics in Chester</title>
+  <meta name="description" content="Nurse-prescriber-led skin clinic on Watergate Row, Chester. Free skin consultations, HydraFacials, peels, anti-wrinkle and filler, booked online.">
+  <meta name="theme-color" content="#2B2321">
+  <meta property="og:title" content="Aurelle Skin Clinic, Chester">
+  <meta property="og:description" content="Honest advice, natural results, and online booking for every treatment.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300..600&display=swap">
+  <link rel="stylesheet" href="/booking.css">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/config.js"></script>
+</head>
+<body>
+  <a class="skip" href="#book">Skip to booking</a>
+
+  <header class="nav" data-track-section="Header">
+    <div class="wrap nav-row">
+      <a class="brand" href="/" aria-label="Aurelle Skin Clinic, home">
+        <svg class="mark" viewBox="0 0 36 44" aria-hidden="true"><path d="M2 43V18a16 16 0 0 1 32 0v25" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 43V19a9 9 0 0 1 18 0v24" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55"/></svg>
+        <span>Aurelle<small>Skin Clinic, Chester</small></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#treatments">Treatments</a>
+        <a href="#menu">Prices</a>
+        <a href="#team">Our team</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a class="btn btn-dark nav-book" href="#book" data-book>Book</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" data-track-section="Hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Medical aesthetics on Watergate Row, led by a nurse prescriber</p>
+          <h1>Skin that looks like you, <em>on a good day</em></h1>
+          <p class="lede">Honest advice and natural results, from a team that will tell you when something isn't right for you. Every treatment starts with a conversation.</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark btn-lg" href="#book" data-book="Skin consultation">Book a free consultation</a>
+            <a class="btn btn-line btn-lg" href="#treatments">Find a treatment</a>
+          </div>
+          <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> <b>4.8</b> from our clients' reviews</p>
+        </div>
+
+        <div class="arch-col">
+          <div class="arch" aria-hidden="true">
+            <svg class="arch-lines" viewBox="0 0 400 520" preserveAspectRatio="none"><path d="M40 520V200a160 160 0 0 1 320 0v320" /><path d="M80 520V210a120 120 0 0 1 240 0v310" /><path d="M120 520V220a80 80 0 0 1 160 0v300" /></svg>
+          </div>
+          <a class="next" href="#book" data-book data-next-free="HydraFacial">
+            <span class="next-label"><span class="pulse" aria-hidden="true"></span>Next HydraFacial</span>
+            <span class="next-when"><span data-nf-day>Checking the diary</span> <span data-nf-time></span></span>
+            <span class="next-who" data-nf-if-staff>with <span data-nf-staff></span></span>
+            <span class="next-go">Book this time</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="finder" id="treatments" data-track-section="Treatment finder">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What would you like to change?</h2>
+          <p>Choose what's on your mind and we'll show you what usually helps. If you're not sure, a consultation is free and there's no pressure to book anything after it.</p>
+        </div>
+        <div class="concerns" role="tablist" aria-label="Concerns">
+          <button type="button" role="tab" aria-selected="true" data-concern="lines">Lines and wrinkles</button>
+          <button type="button" role="tab" aria-selected="false" data-concern="lips">Lip shape and volume</button>
+          <button type="button" role="tab" aria-selected="false" data-concern="dull">Dull or tired skin</button>
+          <button type="button" role="tab" aria-selected="false" data-concern="pigment">Pigmentation and texture</button>
+          <button type="button" role="tab" aria-selected="false" data-concern="dry">Dry, dehydrated skin</button>
+          <button type="button" role="tab" aria-selected="false" data-concern="unsure">I'm not sure</button>
+        </div>
+        <div class="matches" role="tabpanel" aria-live="polite" data-matches></div>
+      </div>
+    </section>
+
+    <section class="approach" data-track-section="Approach">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How a treatment works here</h2>
+          <p>The same three steps, whether it's your first peel or your tenth anti-wrinkle appointment.</p>
+        </div>
+        <ol class="steps">
+          <li><h3>Consultation</h3><p>Thirty minutes with Claire or Maya. We look at your skin, ask about your health and medication, and agree a plan. It's free, and redeemable against treatment.</p></li>
+          <li><h3>Treatment</h3><p>On the day or another day, never rushed. Prescription treatments are only ever given by Claire, a registered nurse prescriber.</p></li>
+          <li><h3>Review at two weeks</h3><p>We see you again to check the result and adjust if needed, at no charge. We'll remind you when your next one is due.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="menu" id="menu" data-track-section="Prices">
+      <div class="wrap menu-grid">
+        <div class="menu-intro">
+          <h2>Treatments and prices</h2>
+          <p>Prices include your two-week review. Pay at the clinic by card.</p>
+        </div>
+        <ul class="menu-list">
+          <li><div><h3>Skin consultation</h3><p>A full skin assessment and a plan. Free, and redeemable against treatment.</p></div><span class="dur">30 min</span><span class="price">Free</span><a href="#book" data-book="Skin consultation">Book</a></li>
+          <li><div><h3>HydraFacial</h3><p>Cleanse, extract, hydrate. No downtime, so you can go straight back out.</p></div><span class="dur">60 min</span><span class="price">£135</span><a href="#book" data-book="HydraFacial">Book</a></li>
+          <li><div><h3>Chemical peel</h3><p>For texture, pigmentation and dullness. A course of three works best.</p></div><span class="dur">45 min</span><span class="price">£95</span><a href="#book" data-book="Chemical peel">Book</a></li>
+          <li><div><h3>Anti-wrinkle treatment</h3><p>Three areas, with a review at two weeks. A consultation is needed first.</p></div><span class="dur">30 min</span><span class="price">£220</span><a href="#book" data-book="Anti-wrinkle treatment">Book</a></li>
+          <li><div><h3>Lip filler</h3><p>1 ml, for natural shape and balance. Follow-up included.</p></div><span class="dur">45 min</span><span class="price">£260</span><a href="#book" data-book="Lip filler">Book</a></li>
+          <li><div><h3>Skin booster</h3><p>Deep hydration injected into the skin. Two sessions, four weeks apart, are recommended.</p></div><span class="dur">45 min</span><span class="price">£240</span><a href="#book" data-book="Skin booster">Book</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="team" id="team" data-track-section="Team">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Who you'll see</h2>
+        </div>
+        <ul class="people">
+          <li><span class="portrait" aria-hidden="true">CA</span><h3>Claire Ashby</h3><p class="role">Clinical director, nurse prescriber</p><p>Twelve years in aesthetic medicine. Claire gives every prescription treatment and leads every consultation for injectables.</p></li>
+          <li><span class="portrait" aria-hidden="true">ML</span><h3>Maya Lindqvist</h3><p class="role">Advanced aesthetician</p><p>Our HydraFacial and peel specialist. Ask her anything about skincare at home: she'll tell you what you can stop buying.</p></li>
+          <li><span class="portrait" aria-hidden="true">JF</span><h3>Jess Fairley</h3><p class="role">Skin therapist</p><p>Runs the Thursday evening clinic for facials and peels, until 8pm.</p></li>
+          <li><span class="portrait" aria-hidden="true">RK</span><h3>Rose Kemp</h3><p class="role">Clinic coordinator</p><p>Answers the phone, the messages and the door. Rose will help you find the right appointment.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="book" id="book" data-track-section="Booking">
+      <div class="wrap book-grid">
+        <div class="book-side">
+          <h2>Book a treatment</h2>
+          <p>Choose a treatment and a time. You'll get a confirmation straight away and a reminder the day before, with a link to move it if you need to.</p>
+          <dl class="book-facts">
+            <div><dt>Where</dt><dd>9 Watergate Row, Chester CH1 2LE, first floor</dd></div>
+            <div><dt>Pay</dt><dd>At the clinic, by card</dd></div>
+            <div><dt>Changes</dt><dd>Free up to 24 hours before</dd></div>
+          </dl>
+        </div>
+        <div class="book-widget" data-booking></div>
+      </div>
+    </section>
+
+    <section class="reviews" data-track-section="Reviews">
+      <div class="wrap">
+        <figure class="quote-lead">
+          <blockquote>Claire is brilliant. Natural results, she tells you honestly what you need and what you don't.</blockquote>
+          <figcaption>Hannah P., Chester</figcaption>
+        </figure>
+        <div class="quote-row">
+          <figure><blockquote>My skin has never looked better. The monthly HydraFacial with Maya is my treat.</blockquote><figcaption>Sophie L., Hoole</figcaption></figure>
+          <figure><blockquote>Three peels with Jess and my pigmentation has faded so much. Calm, clean clinic.</blockquote><figcaption>Kate M., Chester</figcaption></figure>
+          <figure><blockquote>Have been coming for two years. Online booking is so easy and they remind you when you're due.</blockquote><figcaption>Naomi F., Chester</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit" data-track-section="Visit">
+      <div class="wrap visit-grid">
+        <div class="visit-info">
+          <h2>Find us on the Rows</h2>
+          <p>We're on the first floor of Watergate Row, above the street, two minutes from the Cross. The Frodsham Street car park is a short walk away; allow a little extra time on Saturdays.</p>
+          <p class="addr">9 Watergate Row<br>Chester CH1 2LE</p>
+          <p class="contact"><a href="tel:+447700900400">07700 900400</a><br><a href="mailto:hello@aurelle-clinic.example">hello@aurelle-clinic.example</a></p>
+          <p class="open" data-open-now><span class="dot" aria-hidden="true"></span><span data-open-text></span></p>
+        </div>
+        <dl class="hours">
+          <div><dt>Monday</dt><dd>Closed</dd></div>
+          <div><dt>Tuesday</dt><dd>10am to 7pm</dd></div>
+          <div><dt>Wednesday</dt><dd>10am to 7pm</dd></div>
+          <div><dt>Thursday</dt><dd>10am to 8pm</dd></div>
+          <div><dt>Friday</dt><dd>9am to 5pm</dd></div>
+          <div><dt>Saturday</dt><dd>9am to 3pm</dd></div>
+          <div><dt>Sunday</dt><dd>Closed</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="ask" data-track-section="Enquiry form">
+      <div class="wrap ask-grid">
+        <div>
+          <h2>Not sure what you need?</h2>
+          <p>Send us a message and Rose or Claire will reply today. Or simply book a free consultation and we'll talk it through in person.</p>
+        </div>
+        <form class="ask-form" data-enquiry="Consultation request sent" data-track-ignore novalidate data-thanks="Thank you. We'll reply today, or tomorrow morning if it's after 5pm.">
+          <div class="two">
+            <label>Name<input name="fullName" autocomplete="name" required></label>
+            <label>Mobile<input name="phone" type="tel" autocomplete="tel"></label>
+          </div>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Interested in
+            <select name="service">
+              <option>Not sure yet</option>
+              <option>Anti-wrinkle</option>
+              <option>Lip filler</option>
+              <option>HydraFacial</option>
+              <option>Chemical peel</option>
+              <option>Skin booster</option>
+              <option>Gift card</option>
+            </select>
+          </label>
+          <label>Your message<textarea name="message" rows="4"></textarea></label>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="form-foot">
+            <button class="btn btn-dark btn-lg" type="submit">Send message</button>
+            <p class="status" data-status role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-track-section="Footer">
+    <div class="wrap foot-row">
+      <p class="foot-brand">Aurelle</p>
+      <p>9 Watergate Row, Chester CH1 2LE</p>
+      <p><a href="tel:+447700900400">07700 900400</a></p>
+      <p>&copy; <span data-year>2026</span> Aurelle Skin Clinic Ltd</p>
+    </div>
+  </footer>
+
+  <aside class="demo-note" aria-label="About this website">
+    <p><b>This is a demo website</b> for a made-up clinic, built by <a href="https://autisync.com" target="_blank" rel="noopener">Autisync</a>. Bookings and messages sent here go into the Autisync CRM.</p>
+  </aside>
+
+  <script>
+    window.OPENING_HOURS = { 2: ['10:00', '19:00'], 3: ['10:00', '19:00'], 4: ['10:00', '20:00'], 5: ['09:00', '17:00'], 6: ['09:00', '15:00'] };
+    window.BOOKING_COPY = {
+      steps: ['Treatment', 'Day and time', 'Your details', 'Confirm'],
+      notesPh: 'Skin concerns, medication or allergies we should know about',
+      powered: 'Booked straight into our clinic diary',
+    };
+    window.BOOKING_ORDER = function (s) { return ['Skin consultation', 'HydraFacial', 'Chemical peel', 'Anti-wrinkle treatment', 'Lip filler', 'Skin booster'].indexOf(s.name) + 1 || 9; };
+
+    // The treatment finder: a concern, the treatments that usually help.
+    (function () {
+      var T = {
+        'Skin consultation': ['30 min', 'Free', 'A full assessment and a plan, with Claire or Maya.'],
+        'Anti-wrinkle treatment': ['30 min', '£220', 'Softens forehead, frown and crow\'s feet lines. Results show in 10 to 14 days and last 3 to 4 months.'],
+        'Skin booster': ['45 min', '£240', 'Hydration injected into the skin, for fine crêpey lines and a dewy finish.'],
+        'Lip filler': ['45 min', '£260', 'Shape and balance with 1 ml. We aim for your lips, a bit fuller, not a different pair.'],
+        'HydraFacial': ['60 min', '£135', 'Cleanse, extract and hydrate. Glowing straight away, with no downtime.'],
+        'Chemical peel': ['45 min', '£95', 'Lifts dull surface cells, evens tone and smooths texture. Best as a course of three.'],
+      };
+      var C = {
+        lines: ['Anti-wrinkle treatment', 'Skin booster'],
+        lips: ['Lip filler'],
+        dull: ['HydraFacial', 'Chemical peel'],
+        pigment: ['Chemical peel', 'HydraFacial'],
+        dry: ['Skin booster', 'HydraFacial'],
+        unsure: ['Skin consultation'],
+      };
+      function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+      function show(key) {
+        var box = document.querySelector('[data-matches]');
+        box.innerHTML = C[key].map(function (name) {
+          var t = T[name];
+          return '<article class="match"><div><h3>' + esc(name) + '</h3><p>' + esc(t[2]) + '</p></div>' +
+            '<p class="match-meta"><span>' + esc(t[0]) + '</span><b>' + esc(t[1]) + '</b></p>' +
+            '<a class="btn btn-dark" href="#book" data-book="' + esc(name) + '">Book ' + esc(name === 'Skin consultation' ? 'a consultation' : 'this') + '</a></article>';
+        }).join('') + (key !== 'unsure' ? '<p class="match-note">New to injectables? We\'ll start with a free consultation; it can be on the same day.</p>' : '');
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var tabs = document.querySelectorAll('[data-concern]');
+        Array.prototype.forEach.call(tabs, function (b) {
+          b.addEventListener('click', function () {
+            Array.prototype.forEach.call(tabs, function (x) { x.setAttribute('aria-selected', String(x === b)); });
+            show(b.getAttribute('data-concern'));
+          });
+        });
+        show('lines');
+      });
+    })();
+  </script>
+  <script src="/booking.js" defer></script>
+  <script src="/site.js" defer></script>
+</body>
+</html>
